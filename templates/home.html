@@ -1,0 +1,19 @@
+{%extends "layout.html"%}
+
+{%block content%}
+
+<div class="container-fluid bg-dark py-5 text-white text-center">
+    <h1>Download IlikeComix</h1>
+</div>
+<div class="container my-5">
+    <form action="/download" method="POST">
+        <div class="text-center">
+            <input type="text" name="comics" id="" class="w-100 text-center py-2" placeholder="Please Enter Comics Url">
+            <br>
+            <button class="btn btn-primary my-3 shadow-lg" type="submit">Download</button>
+        </div>
+    </form>
+
+</div>
+
+{%endblock%}
